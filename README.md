@@ -1,0 +1,1 @@
+need cv2, face-recognition libraries ready
