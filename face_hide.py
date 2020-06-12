@@ -21,11 +21,11 @@ def change_partial_mosaic(frame, left, top, right, bottom):
 video_capture = cv2.VideoCapture(0)
 
 # Load face picture and the add encoding.
-victor_image = face_recognition.load_image_file("victor.jpg")
+victor_image = face_recognition.load_image_file("face-photos/victor.jpg")
 victor_face_encoding = face_recognition.face_encodings(victor_image)[0]
 
 # My friend's image
-junghoo_image = face_recognition.load_image_file("junghoo.jpg")
+junghoo_image = face_recognition.load_image_file("face-photos/junghoo.jpg")
 junghoo_face_encoding = face_recognition.face_encodings(junghoo_image)[0]
 
 # Create arrays of known face encodings and their names
